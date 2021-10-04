@@ -1,0 +1,43 @@
+@font-face {
+    font-family: "Montserrat", sans-serif;
+    src: url(../../index.html);
+}
+
+* {
+    font-family: "Montserrat", sans-serif;
+}
+
+/* Show Case */
+.footer_container {
+    background-color: rgb(228, 228, 228);
+    padding: 50px 0 120px 0;
+    margin-top: 100px;
+}
+
+/* Finance Box */
+.finance_item {
+    position: relative;
+    box-shadow: 0 5px 10px 2px #eee;
+    border: 1px #ddd solid;
+    border-radius: 5px;
+    padding: 0.2rem 1rem;
+    margin: 1rem 0;
+    list-style: none;
+}
+
+/* Finance Header */
+.finance_item_header {
+    color: red;
+    font-size: 20px;
+    padding-top: 10px;
+}
+
+/* Delete Icon */
+.trash {
+    position: absolute;
+    left: 95%;
+    top: 35px;
+    font-size: 18px;
+    color: #333;
+    cursor: pointer;
+}
